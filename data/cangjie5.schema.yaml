@@ -52,7 +52,6 @@ engine:
     - reverse_lookup_translator
     - table_translator
   filters:
-    - simplifier@es_conversion
     - simplifier
     - uniquifier
     - single_char_filter
