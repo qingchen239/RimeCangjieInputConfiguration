@@ -24,10 +24,7 @@ switches:
   - name: simplification
     reset: 0
     states: [ 繁體, 简体 ]
-  - name: show_es
-    reset: 0
-    states: [ 😔, 😀 ]
-#  - name: extended_charset
+#  - name: extended_charset # 由於碼表中只收錄了兩萬餘常用字，所以我取消了[常用, 增廣]的切換功能
 #    reset: 0
 #    states: [ 常用, 增廣 ]
   - name: ascii_punct
@@ -67,7 +64,7 @@ speller:
 
 translator:
   dictionary: cangjie5
-  enable_user_dict: false
+  enable_user_dict: false # 不果不禁用用戶碼表，輸入時候選字的位置可能會變化
   enable_charset_filter: true
   enable_sentence: true
   enable_encoder: true
@@ -113,7 +110,3 @@ recognizer:
     punct: '^/([0-9]0?|[A-Za-z]+)$'
     reverse_lookup: "`[a-z]*'?$|[a-z]+'$"
 
-es_conversion:
-  opencc_config: es.json
-  option_name: show_es
-  tips: all  # emoji模式下提示對應的漢字
