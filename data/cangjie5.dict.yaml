@@ -14,7 +14,7 @@ version: "0.18.custom.陳清"
 sort: original
 use_preset_vocabulary: true #允許使用「八股文」詞彙表
 max_phrase_length: 8 # 我們目前還沒能解決如何輸入8個字以上的詞的問題
-min_phrase_weight: 100
+min_phrase_weight: 0 # 八股文（essay.txt）中weight大於0的詞言（所有詞語）
 columns:
   - text
   - code
