@@ -5,6 +5,7 @@
 用data文件夾中的文件替換掉小狼毫程序文件夾下data文件夾中的同名文件即可。
 
 教學影片（YouTube）：https://youtu.be/ExTGG1JV76g
+教學影片（Bilibili）：https://www.bilibili.com/video/bv1JK411L72X
 
 ## 修改版與原版的不同
 
