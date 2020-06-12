@@ -24,9 +24,9 @@ switches:
   - name: simplification
     reset: 0
     states: [ 繁體, 简体 ]
-#  - name: extended_charset # 由於碼表中只收錄了兩萬餘常用字，所以我取消了[常用, 增廣]的切換功能
-#    reset: 0
-#    states: [ 常用, 增廣 ]
+  - name: extended_charset
+    reset: 0
+    states: [ 常用, 增廣 ]
   - name: ascii_punct
     reset: 0
     states: [ 。，, ．， ]
